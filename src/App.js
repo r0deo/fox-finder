@@ -11,7 +11,7 @@ function App() {
   function handleClick(){
     setLikes((likes) => likes + 1)
   }
-  
+  //fetching the data 
   function handleNewFoxClick() {
     fetch("https://randomfox.ca/floof/")
       .then((response) => response.json())
